@@ -1,0 +1,23 @@
+2022-08-01T08:16:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp64\www\ebooksite0.1\wp-includes\Requests\Transport\cURL.php on line 483
+
+2022-08-01T09:12:23+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to voku\helper\HtmlDomParser::loadHtml() must be of the type string, bool given, called in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(268): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(157): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.ph in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
+2022-08-01T09:15:17+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to voku\helper\HtmlDomParser::loadHtml() must be of the type string, bool given, called in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(268): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(157): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.ph in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
+2022-08-01T09:16:16+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to voku\helper\HtmlDomParser::loadHtml() must be of the type string, bool given, called in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(268): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(157): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.ph in C:\wamp64\www\ebooksite0.1\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
